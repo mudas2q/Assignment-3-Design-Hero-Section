@@ -1,0 +1,137 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 26px 4%;
+}
+
+header .logo {
+  color: #3f51b5;
+  display: inline;
+  font-size: 1.8rem;
+  float: left;
+}
+
+#navbar {
+  display: inline-block;
+  margin-top: 6px;
+}
+
+#navbar ul {
+  list-style: none;
+  display: inline-block;
+}
+
+ul > li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.nav-list li > a {
+  text-decoration: none;
+  padding: 8px 15px;
+  color: #555;
+  font-weight: 500;
+}
+
+/* This is Div For Navbar Buttons */
+.nav-btn {
+  float: right;
+}
+
+/* Target 2 Buttons in Div inside */
+.nav-btn button {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 25px;
+  font-weight: 600;
+}
+
+/* First Buttton Of (Sign In) */
+.signin-btn {
+  background-color: #e8eaf6;
+  color: #3f51b5;
+}
+
+/* Second Button Of (Sign-Up) */
+.signup-btn {
+  background-color: #3f51b5;
+  color: #ffffff;
+}
+
+/* Next Section Content Start */
+section {
+  background-color: #e0f7fa;
+  height: 100vh;
+  display: flex;
+}
+
+.left-side {
+  margin-left: 70px;
+  margin-top: 13%;
+}
+
+.sec-h1 {
+  font-size: 2.6rem;
+}
+
+.sec-h1 > span {
+  color: #293892;
+}
+
+.sec-paragraph {
+  margin-top: 20px;
+  line-height: 22px;
+}
+
+/* This is Div For Buttons */
+.section-buttons {
+  margin-top: 20px;
+}
+
+/* Target 2 Section Buttons */
+.section-buttons button {
+  display: inline-block;
+  padding: 10px 22px;
+  border-radius: 25px;
+  font-weight: 600;
+}
+
+.join-now-btn {
+  background-color: #3f51b5;
+  color: #ffffff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.learn-more-btn {
+  background-color: #e8eaf6;
+  color: #3f51b5;
+  border: 1px solid #3f51b5;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+/* For Right Side Image */
+.right-side-image {
+  background-image: url("image-folder/section-img.png");
+  width: 150%;
+  height: 150%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 40px 0px;
+}
